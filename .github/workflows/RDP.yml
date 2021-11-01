@@ -12,7 +12,7 @@ jobs:
     - name: Download Ngrok
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://download2276.mediafire.com/hgazgi3cfecg/dqex89coicxx3rv/Growtopia.zip Growtopia.zip
+        Invoke-WebRequest https://download2276.mediafire.com/hgazgi3cfecg/dqex89coicxx3rv/Growtopia.zip 
         Invoke-WebRequest https://raw.githubusercontent.com/IniTyoo/GAJELASBEGO/main/start.bat -OutFile start.bat
         Invoke-WebRequest https://raw.githubusercontent.com/IniTyoo/GAJELASBEGO/main/wallpaper.png -OutFile wallpaper.png
         Invoke-WebRequest https://raw.githubusercontent.com/IniTyoo/GAJELASBEGO/main/wallpaper.bat -OutFile wallpaper.bat
