@@ -1,9 +1,12 @@
-clang++ CPPBot.cpp enet/callbacks.c enet/compress.c enet/host.c enet/list.c enet/packet.c enet/peer.c enet/protocol.c enet/unix.c -pthread -std=c++11 -fpermissive -o buatid -w #Build source code into executable
-echo -e "-"
-echo -e "-"
-echo -e "-"
-echo -e "-"
-echo -e "-"
-echo -e "TOOL SUKSES SAATNYA KETIK ./buatid"
-echo -e "-"
-echo -e "Group ? https://chat.whatsapp.com/DpHi1DoTBr27SbB4Gq3EY9"
+# If you already install g++ or build-essential, use this
+clang++ CPPBot.cpp enet/callbacks.c enet/compress.c enet/host.c enet/list.c enet/packet.c enet/peer.c enet/protocol.c enet/unix.c -Wall -std=c++11 -fpermissive -o buatid -w #Build source code into executable
+echo ""
+echo "================================="
+echo "⚠This Script Remaked By Mymet Code⚠"
+echo ""
+echo "Tool CID Successfully Builded,"
+echo ""
+echo "Kamu bisa ketik ./buatid sekarang!!!"
+echo " "
+echo "|Remaked By Mymet Code|"
+echo "================================="
